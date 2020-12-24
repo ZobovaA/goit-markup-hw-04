@@ -253,6 +253,7 @@ button:hover {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   margin-bottom: 30px;
+  background-color: #f5f4fa;
 }
 .main-items:nth-child(1):before {
   background-image: url(../images/antenna\ 1.svg);
