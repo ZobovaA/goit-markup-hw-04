@@ -432,12 +432,12 @@ button:hover {
 .master-icon {
   height: 20px;
   width: 20px;
+  justify-content: center;
 }
 
-.master-icon:hover,
-.master-icon:focus {
+.master-link:hover,
+.master-link:focus {
   background-color: var(--accent-color);
-  color: #ffffff;
 }
 
 .social-list {
@@ -451,12 +451,10 @@ button:hover {
 }
 
 .master-link {
+  display: inline-flex;
   width: 44px;
   height: 44px;
   justify-content: center;
   align-items: center;
+  border-radius: 50%;
 }
-
-/* .master-link:not(:last-child) {
-  margin-right: 10px;
-} */
