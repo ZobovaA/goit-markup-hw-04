@@ -42,7 +42,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
   margin-right: 93px;
   width: 145px;
 }
@@ -127,11 +127,6 @@ header {
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
-
-/* .hero {
-  padding-top: 200px;
-  padding-bottom: 280px;
-} */
 
 .hero .container {
   padding-top: 200px;
@@ -432,3 +427,36 @@ button:hover {
 .descrip-portfolio {
   padding-bottom: 4px;
 }
+
+/* Icons*/
+.master-icon {
+  height: 20px;
+  width: 20px;
+}
+
+.master-icon:hover,
+.master-icon:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.social-list .s-icon:not(:last-child) {
+  margin-right: 10px;
+}
+
+.master-link {
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .master-link:not(:last-child) {
+  margin-right: 10px;
+} */
