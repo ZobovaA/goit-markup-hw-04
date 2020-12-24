@@ -212,7 +212,9 @@ button:hover {
 }
 
 .description-index {
-  color: var(--secondary-fonts-colo);
+  margin-bottom: 30px;
+  text-align: center;
+  color: var(--secondary-fonts-color);
   font-size: 16px;
   line-height: 1.19;
 }
@@ -302,11 +304,6 @@ button:hover {
 .title-name {
   margin-top: 30px;
   margin-bottom: 10px;
-  text-align: center;
-}
-
-.description-index {
-  margin-bottom: 30px;
   text-align: center;
 }
 
