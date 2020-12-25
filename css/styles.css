@@ -529,6 +529,23 @@ button:hover {
   color: var(--accent-color);
 }
 
+.prisoed {
+  color: #ffffff;
+  width: 145px;
+  height: 16px;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
 .welcom {
   display: inline-block;
+}
+.prisoed {
+  display: inline;
+  text-align: center;
+}
+.footer-main {
+  display: flex;
 }
