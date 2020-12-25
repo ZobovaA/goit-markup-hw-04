@@ -494,10 +494,6 @@ button:hover {
   padding-bottom: 83px;
 }
 
-.clients-title {
-  padding-bottom: 245px;
-}
-
 .logo-1 {
   width: 44px;
   height: 49px;
@@ -521,4 +517,14 @@ button:hover {
 .logo-6 {
   width: 88.4px;
   height: 45.4px;
+}
+
+.clients-title {
+  padding-bottom: 245px;
+  margin-bottom: 0;
+}
+
+.master-clients:hover,
+.master-clients:focus {
+  color: var(--accent-color);
 }
