@@ -445,6 +445,7 @@ button:hover {
   align-items: center;
   border-radius: 50%;
   background-color: #ffffff;
+  color: #afb1b8;
 }
 
 .master-link:hover,
@@ -457,8 +458,19 @@ button:hover {
   height: 20px;
   width: 20px;
   justify-content: center;
+  fill: currentColor;
+}
+
+.icon-clients {
+  fill: red;
+}
+.master-icon-c {
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  justify-content: center;
   fill: #afb1b8;
 }
-.master-icon:hover {
-  fill: #ffffff;
+.clients-list {
+  display: flex;
 }
