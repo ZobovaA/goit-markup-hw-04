@@ -528,3 +528,7 @@ button:hover {
 .master-clients:focus {
   color: var(--accent-color);
 }
+
+.welcom {
+  display: inline-block;
+}
