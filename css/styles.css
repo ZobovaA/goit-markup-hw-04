@@ -461,16 +461,64 @@ button:hover {
   fill: currentColor;
 }
 
-.icon-clients {
-  fill: red;
-}
-.master-icon-c {
-  display: inline-block;
-  height: 20px;
-  width: 20px;
-  justify-content: center;
-  fill: #afb1b8;
-}
 .clients-list {
   display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+}
+.clients-list .clients-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.master-clients {
+  display: inline-flex;
+  width: 170px;
+  height: 90px;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+  border: currentColor 1px solid;
+  border-radius: 4%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.icon-clients {
+  justify-content: center;
+  fill: currentColor;
+  justify-items: center;
+}
+
+.clients {
+  display: block;
+  padding-top: 105px;
+  padding-bottom: 83px;
+}
+
+.clients-title {
+  padding-bottom: 245px;
+}
+
+.logo-1 {
+  width: 44px;
+  height: 49px;
+}
+.logo-2 {
+  width: 40px;
+  height: 50px;
+}
+.logo-3 {
+  width: 41px;
+  height: 42.6px;
+}
+.logo-4 {
+  width: 79.6px;
+  height: 42px;
+}
+.logo-5 {
+  width: 59px;
+  height: 47px;
+}
+.logo-6 {
+  width: 88.4px;
+  height: 45.4px;
 }
