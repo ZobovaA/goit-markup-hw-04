@@ -444,8 +444,11 @@ button:hover {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #ffffff;
+
   color: #afb1b8;
+}
+.m-link-team {
+  background-color: #ffffff;
 }
 
 .master-link:hover,
@@ -538,6 +541,7 @@ button:hover {
   font-size: 14px;
   line-height: 1.4;
   text-transform: uppercase;
+  text-align: center;
 }
 .welcom {
   display: inline-block;
@@ -548,4 +552,17 @@ button:hover {
 }
 .footer-main {
   display: flex;
+}
+
+.clients-list-f {
+  display: flex;
+}
+.f-icon:not(:last-child) {
+  margin-right: 10px;
+}
+.clients-list-f {
+  margin-top: 20px;
+}
+.m-link-footer {
+  background-color: rgb(68, 69, 78);
 }
