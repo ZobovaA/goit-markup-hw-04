@@ -565,7 +565,7 @@ button:hover {
   margin-top: 20px;
 }
 .m-link-footer {
-  background-color: rgb(68, 69, 78);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .adress-header {
   display: flex;
