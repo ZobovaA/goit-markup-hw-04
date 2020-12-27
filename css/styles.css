@@ -603,3 +603,7 @@ button:hover {
 .link-header:focus {
   color: var(--accent-color);
 }
+
+.current {
+  color: var(--accent-color);
+}
