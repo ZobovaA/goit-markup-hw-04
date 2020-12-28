@@ -479,6 +479,7 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 0px;
+  margin-top: 50px;
 }
 .clients-list .clients-link:not(:last-child) {
   margin-right: 10px;
@@ -533,7 +534,6 @@ button:hover {
 }
 
 .clients-title {
-  padding-bottom: 245px;
   margin-bottom: 0;
 }
 
