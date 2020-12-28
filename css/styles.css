@@ -493,7 +493,6 @@ button:hover {
   color: #afb1b8;
   border: currentColor 1px solid;
   border-radius: 4%;
-  
 }
 
 .icon-clients {
@@ -577,6 +576,7 @@ button:hover {
 }
 .m-link-footer {
   background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
 }
 .adress-header {
   display: flex;
