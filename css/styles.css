@@ -350,7 +350,7 @@ button:hover {
 }
 
 .footer {
-   
+  align-items: baseline;   
   margin-right: auto;
   margin-left: auto;
   padding-top: 60px;
