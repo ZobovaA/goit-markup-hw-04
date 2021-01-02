@@ -162,6 +162,9 @@ header {
 }
 
 .button-hero {
+  border-radius: 4px;
+  border: 0 solid transparent;
+  min-width: 200px;
   color: var(--main-bck-color);
   background: var(--accent-color);
   font-family: inherit;
@@ -173,6 +176,8 @@ header {
   margin-top: 30px;
   cursor: pointer;
   padding: 10px 32px 10px 32px;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 button {
@@ -222,13 +227,17 @@ button:hover {
 }
 .title3 {
   color: var(--main-fonts-color);
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.19;
   text-transform: uppercase;
 }
 
 .sub-title3 {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   font-size: 14px;
   line-height: 1.7;
   color: var(--secondary-fonts-color);
@@ -328,7 +337,12 @@ button:hover {
   margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
+
 
 /*footer*/
 .footer-1 {
@@ -336,6 +350,9 @@ button:hover {
 }
 
 .footer {
+   
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--top-bottom-background-color);
@@ -345,13 +362,10 @@ button:hover {
   margin-top: 20px;
 }
 
-.footer-items {
-  margin-bottom: 9px;
-}
-
 .mail-footer {
   display: block;
   margin-bottom: 9px;
+  line-height: 1.7;
 }
 
 .adress-footer {
@@ -359,7 +373,7 @@ button:hover {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.7;
   color: #ffffff;
 }
 
@@ -368,6 +382,9 @@ button:hover {
   font-style: normal;
   color: var(--secondary-fonts-color);
   font-family: "Roboto", sans-serif;
+  margin-top: 9px;
+  font-size: 14px;
+  
 }
 
 .footer-list {
@@ -378,6 +395,7 @@ button:hover {
   display: inline-block;
   margin-bottom: 9px;
   margin-top: 9px;
+  
 }
 
 .footer-phone {
@@ -497,7 +515,9 @@ button:hover {
   justify-content: center;
   fill: currentColor;
 }
-
+.clients{
+  width: 1170px;
+}
 .clients-list {
   display: flex;
   justify-content: center;
