@@ -432,12 +432,12 @@ button:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 100px;
   margin-bottom: 50px;
 }
 
 .portfolio-container {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .portfolio-items:not(:last-child) {
@@ -545,8 +545,8 @@ button:hover {
 
 .clients {
   display: block;
-  padding-top: 105px;
-  padding-bottom: 83px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .logo-1 {
